@@ -31,7 +31,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="To-Do List" id="bL6-Q2-wtr">
-                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="X2B-aT-h64"/>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="X2B-aT-h64">
+                            <connections>
+                                <action selector="saveTask:" destination="74q-fg-4tU" id="3iE-EB-7Aw"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sve-j2-phg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
